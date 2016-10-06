@@ -6,3 +6,6 @@ app.get('/', function(request, response){
 });
 
 app.listen(process.env.PORT || 4000);
+app.get('/nickname', function(request, response){
+    response.send('happy-turtle!');
+});
